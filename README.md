@@ -18,8 +18,8 @@ make re to recompile this project.
 '''
 
 # Accepted parameters
-''' number_of_philosophers ''' The number of philosophers and also the number of forks.
-''' time_to_die ''' If a philosopher didn’t start eating time_to_die milliseconds since the beginning of their last meal or the beginning of the sim- ulation, they die (in milliseconds).
-''' time_to_eat ''' The time it takes for a philosopher to eat. During that time, they will need to hold two forks (in milliseconds).
-''' time_to_sleep ''' The time a philosopher will spend sleeping (in milliseconds).
+'number_of_philosophers' The number of philosophers and also the number of forks.
+'time_to_die' If a philosopher didn’t start eating time_to_die milliseconds since the beginning of their last meal or the beginning of the sim- ulation, they die (in milliseconds).
+'time_to_eat' The time it takes for a philosopher to eat. During that time, they will need to hold two forks (in milliseconds).
+'time_to_sleep' The time a philosopher will spend sleeping (in milliseconds).
 number_of_times_each_philosopher_must_eat If all philosophers have eaten at least number_of_times_each_philosopher_must_eat times, the simulation stops. If not specified, the simulation stops when a philosopher dies (optional argument).
