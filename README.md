@@ -31,8 +31,8 @@ make
 ```
 
 ## Accepted parameters
-- 'number_of_philosophers' The number of philosophers and also the number of forks. <br>
-- 'time_to_die' If a philosopher didn’t start eating time_to_die milliseconds since the beginning of their last meal or the beginning of the sim- ulation, they die (in milliseconds). <br>
-- 'time_to_eat' The time it takes for a philosopher to eat. During that time, they will need to hold two forks (in milliseconds). <br>
-- 'time_to_sleep' The time a philosopher will spend sleeping (in milliseconds). <br>
-- number_of_times_each_philosopher_must_eat If all philosophers have eaten at least number_of_times_each_philosopher_must_eat times, the simulation stops. If not specified, the simulation stops when a philosopher dies (optional argument). <br>
+- `number_of_philosophers` The number of philosophers and also the number of forks. <br>
+- `time_to_die` If a philosopher didn’t start eating time_to_die milliseconds since the beginning of their last meal or the beginning of the sim- ulation, they die (in milliseconds). <br>
+- `time_to_eat` The time it takes for a philosopher to eat. During that time, they will need to hold two forks (in milliseconds). <br>
+- `time_to_sleep` The time a philosopher will spend sleeping (in milliseconds). <br>
+- `number_of_times_each_philosopher_must_eat` If all philosophers have eaten at least number_of_times_each_philosopher_must_eat times, the simulation stops. If not specified, the simulation stops when a philosopher dies (optional argument). <br>
