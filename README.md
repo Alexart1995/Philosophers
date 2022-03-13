@@ -9,15 +9,30 @@ Each philosopher can take the nearest fork (if one is available) or put it down 
 
 The question of the task is to develop a behavior model (parallel algorithm) in which none of the philosophers will starve, that is, they will forever alternate between eating and thinking.
 
+
 ## Make commands
 'make' to compile program. <br>
-'make clean' to clean all object files.
-'make fclean' to remove executable files.
-'make re' to recompile this project.
+'make clean' to clean all object files. <br>
+'make fclean' to remove executable files. <br>
+'make re' to recompile this project. <br>
+
+## Usage
+To launch the mandotary part (multithreading).
+'''
+cd philo
+make
+./philo number_of_philosophers time_to_die time_to_eat time_to_sleep [number_of_times_each_philosopher_must_eat]
+'''
+To launch the bonus part (multiprocessing).
+'''
+cd philo_bonus
+make 
+./philo_bonus number_of_philosophers time_to_die time_to_eat time_to_sleep [number_of_times_each_philosopher_must_eat]
+'''
 
 ## Accepted parameters
-'number_of_philosophers' The number of philosophers and also the number of forks.
-'time_to_die' If a philosopher didn’t start eating time_to_die milliseconds since the beginning of their last meal or the beginning of the sim- ulation, they die (in milliseconds).
-'time_to_eat' The time it takes for a philosopher to eat. During that time, they will need to hold two forks (in milliseconds).
-'time_to_sleep' The time a philosopher will spend sleeping (in milliseconds).
-number_of_times_each_philosopher_must_eat If all philosophers have eaten at least number_of_times_each_philosopher_must_eat times, the simulation stops. If not specified, the simulation stops when a philosopher dies (optional argument).
+- 'number_of_philosophers' The number of philosophers and also the number of forks. <br>
+- 'time_to_die' If a philosopher didn’t start eating time_to_die milliseconds since the beginning of their last meal or the beginning of the sim- ulation, they die (in milliseconds). <br>
+- 'time_to_eat' The time it takes for a philosopher to eat. During that time, they will need to hold two forks (in milliseconds). <br>
+- 'time_to_sleep' The time a philosopher will spend sleeping (in milliseconds). <br>
+- number_of_times_each_philosopher_must_eat If all philosophers have eaten at least number_of_times_each_philosopher_must_eat times, the simulation stops. If not specified, the simulation stops when a philosopher dies (optional argument). <br>
