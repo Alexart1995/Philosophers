@@ -12,23 +12,23 @@ The question of the task is to develop a behavior model (parallel algorithm) in 
 
 ## Make commands
 `make` to compile program. <br>
-'make clean' to clean all object files. <br>
-'make fclean' to remove executable files. <br>
-'make re' to recompile this project. <br>
+`make clean` to clean all object files. <br>
+`make fclean` to remove executable files. <br>
+`make re` to recompile this project. <br>
 
 ## Usage
 To launch the mandotary part (multithreading).
-'''
+```
 cd philo
 make
 ./philo number_of_philosophers time_to_die time_to_eat time_to_sleep [number_of_times_each_philosopher_must_eat]
-'''
+```
 To launch the bonus part (multiprocessing).
-'''
+```
 cd philo_bonus
 make 
 ./philo_bonus number_of_philosophers time_to_die time_to_eat time_to_sleep [number_of_times_each_philosopher_must_eat]
-'''
+```
 
 ## Accepted parameters
 - 'number_of_philosophers' The number of philosophers and also the number of forks. <br>
