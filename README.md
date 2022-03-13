@@ -11,7 +11,7 @@ The question of the task is to develop a behavior model (parallel algorithm) in 
 
 
 ## Make commands
-'make' to compile program. <br>
+`make` to compile program. <br>
 'make clean' to clean all object files. <br>
 'make fclean' to remove executable files. <br>
 'make re' to recompile this project. <br>
