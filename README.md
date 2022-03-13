@@ -10,12 +10,10 @@ Each philosopher can take the nearest fork (if one is available) or put it down 
 The question of the task is to develop a behavior model (parallel algorithm) in which none of the philosophers will starve, that is, they will forever alternate between eating and thinking.
 
 # Make commands
-'''
-make to compile program.
-make clean to clean all object files.
-make fclean to remove executable files.
-make re to recompile this project.
-'''
+'make' to compile program.
+'make clean' to clean all object files.
+'make fclean' to remove executable files.
+'make re' to recompile this project.
 
 # Accepted parameters
 'number_of_philosophers' The number of philosophers and also the number of forks.
